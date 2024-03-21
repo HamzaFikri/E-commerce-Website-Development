@@ -1,4 +1,4 @@
-# E-commerce Website Project
+# 🌟 E-commerce Website Project 🌟
 
 This project aims to develop a simple yet powerful e-commerce website using Django for the backend, HTML, CSS, JavaScript, and Bootstrap for the frontend, and SQLite3 for the database.
 
@@ -17,7 +17,7 @@ This project aims to develop a simple yet powerful e-commerce website using Djan
 - **Frontend**: HTML, CSS, JavaScript, Bootstrap
 - **Database**: SQLite3
 
-## Installation
+## 🛠️ Installation
 
 1. Clone the repository:
 
@@ -51,17 +51,17 @@ python manage.py runserver
 
 6. Open your web browser and navigate to `http://localhost:8000` to access the website.
 
-## Usage
+## 🚀 Usage
 
 - Register a new account or login with existing credentials.
 - Browse products, add them to the cart, and proceed to checkout.
 - View past orders and purchase history.
 
-## Contributing
+## 🤝 Contributing
 
 Contributions are welcome! Feel free to open issues or submit pull requests for any enhancements or bug fixes.
 
-## License
+## 📜 License
 
 This project is licensed under the [MIT License](LICENSE).
 
