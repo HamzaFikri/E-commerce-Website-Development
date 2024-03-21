@@ -22,7 +22,7 @@ This project aims to develop a simple yet powerful e-commerce website using Djan
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/your-username/e-commerce-website.git
+git clone https://github.com/HamzaFikri/E-commerce-Website-Development
 ```
 
 2. Navigate to the project directory:
