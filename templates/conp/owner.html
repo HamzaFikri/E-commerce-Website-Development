@@ -1,0 +1,130 @@
+<style>
+  @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+
+
+.slider{
+  max-width: 1100px;
+  display: flex;
+}
+.slider .card{
+  flex: 1;
+  margin: 0 10px;
+  background: #fff;
+}
+.slider .card .img{
+  height: 200px;
+  width: 100%;
+}
+.slider .card .img img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.slider .card .content{
+  padding: 10px 20px;
+  
+}
+.card .content .title{
+  font-size: 25px;
+  font-weight: 600;
+}
+.card .content .sub-title{
+  font-size: 20px;
+  font-weight: 600;
+  color: #C06B3E;
+  line-height: 20px;
+}
+.card .content p{
+  text-align: justify;
+  margin: 20px 0;
+}
+.card .content .btn{
+  display: block;
+  text-align: left;
+  margin: 10px 0;
+}
+.card .content .btn button{
+  background: #C06B3E;
+  color: #fff;
+  border: none;
+  outline: none;
+  font-size: 17px;
+  padding: 5px 8px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+.card .content .btn button:hover{
+  transform: scale(0.9);
+}
+</style>
+
+
+   <body>
+    <center style="padding: 20px;">
+      <div class="slider owl-carousel">
+         <div class="card">
+            <div class="img">
+               <img src="/static/images/spices.jpg" alt="">
+            </div>
+            <div class="content">
+               <div class="title">
+                  Spices
+               </div>
+               <div class="sub-title">
+                  Description
+               </div>
+               <p>
+                  Spices are aromatic substances derived from various parts of plants such as seeds, bark, roots, and fruits, renowned for their ability to add flavor, color, and aroma to food. Common spices include cinnamon, cumin, turmeric, and cloves, each with distinctive taste profiles and culinary uses. Spices are often ground or used whole, either individually or in blends, to enhance the taste and appeal of dishes, ranging from savory to sweet. Beyond their culinary role, spices have been valued for centuries for their medicinal properties, believed to alleviate ailments and promote health. From ancient trade routes to modern kitchens, spices continue to captivate and inspire culinary creativity worldwide.               </p>
+               <div class="btn">
+                  <button>Read more</button>
+               </div>
+            </div>
+         </div>
+         <div class="card">
+            <div class="img">
+               <img src="/static/images/herbs.jpg" alt="">
+            </div>
+            <div class="content">
+               <div class="title">
+                  Herbs
+               </div>
+               <div class="sub-title">
+                  Description
+               </div>
+               <p>
+                  Herbs are flavorful plants primarily valued for their culinary, medicinal, and aromatic properties. These plants, including basil, parsley, rosemary, and mint, typically consist of soft, green leaves and are used fresh or dried in various cuisines worldwide. Herbs impart distinctive tastes and fragrances to dishes, enhancing flavors and providing depth. Beyond the kitchen, herbs have been utilized for their therapeutic benefits, believed to alleviate ailments and promote well-being. Whether infused in teas, garnishing salads, or incorporated into savory dishes, herbs remain integral to culinary traditions and holistic health practices globally.               </p>
+               <div class="btn">
+                  <button>Read more</button>
+               </div>
+            </div>
+         </div>
+         <div class="card">
+            <div class="img">
+               <img src="/static/images/oils.jpg" alt="">
+            </div>
+            <div class="content">
+               <div class="title">
+                  Natural Cosmetic oils
+               </div>
+               <div class="sub-title">
+                  Description
+               </div>
+               <p>
+                  Natural cosmetic oils are derived from plants and seeds, offering a range of benefits for skincare and beauty routines. These oils, such as argan oil, jojoba oil, and coconut oil, are rich in vitamins, antioxidants, and fatty acids, nourishing the skin and hair while providing hydration and protection. From moisturizing dry skin to improving the appearance of fine lines and wrinkles, natural cosmetic oils offer versatile solutions for various skincare concerns. Their non-toxic and eco-friendly nature make them increasingly popular alternatives to synthetic ingredients in beauty products, catering to individuals seeking gentle yet effective skincare solutions derived from nature's bounty.               </p>
+               <div class="btn">
+                  <button>Read more</button>
+               </div>
+            </div>
+         </div>
+      </div>
+    </center>
+      <script>
+         $(".slider").owlCarousel({
+           loop: true,
+           autoplay: true,
+           autoplayTimeout: 2000, //2000ms = 2s;
+           autoplayHoverPause: true,
+         });
+      </script>
+   </body>
