@@ -68,4 +68,4 @@ This project is licensed under the [MIT License](LICENSE).
 ## Author
 
 - Mohammed Hamza Fikri
-Linkedin(https://www.linkedin.com/in/mohammed-hamza-fikri/)
+- Linkedin(https://www.linkedin.com/in/mohammed-hamza-fikri/)
